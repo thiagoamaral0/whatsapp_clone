@@ -5,7 +5,8 @@ import 'package:whatsapp_clone/pages/status_page.dart';
 import '../widgets/app_bar.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  HomePage({Key? key}) : super(key: key);
+  final ScrollController _scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +15,23 @@ class HomePage extends StatelessWidget {
         Scaffold(
           body: SafeArea(
             child: CustomScrollView(
-              slivers: <Widget>[WhatsAppBar()],
+              slivers: <Widget>[WhatsAppBar(),
+            //   SliverList(
+            //     delegate: SliverChildListDelegate([
+            //   ListView.builder(
+            //       controller: _scrollController,
+            //       shrinkWrap: true,
+            //       itemCount: 20,
+            //       itemBuilder: (context, index) {
+            //         return const ListTile(
+            //           leading: Icon(Icons.account_circle
+            //           , size: 60,),
+            //         );
+            //       })
+            // ]
+            // )
+            // )
+            ],
             ),
           ),
           floatingActionButton: FloatingActionButton(
@@ -27,5 +44,6 @@ class HomePage extends StatelessWidget {
         const CallsPage(),
       ],
     );
+    
   }
 }
