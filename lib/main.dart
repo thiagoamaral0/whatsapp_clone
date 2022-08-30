@@ -12,6 +12,7 @@ class WhatsApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       home: HomePage(),
+      debugShowCheckedModeBanner: false,
       
     );
   }
