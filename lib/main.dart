@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/pages/home.dart';
-import 'package:whatsapp_clone/widgets/buttomIcon.dart';
 
 
 main() {
@@ -11,7 +10,7 @@ class WhatsApp extends StatelessWidget {
   const WhatsApp({Key? key}) : super(key: key);
 
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: HomePage(),
       
     );
