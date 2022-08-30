@@ -1,17 +1,8 @@
 # whatsapp_clone
 
-Um clone da interface do WhatsApp utilizando Flutter
+## Projeto:
+Um clone da interface do WhatsApp utilizando Flutter. 
 
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Comentários do criador:
+Nesse projeto -por ser meu primeiro utilizando Flutter- decidi me desafiar a faze-lo apenas buscando na documentação
+e procurando por informações avulsas na internet,ou seja, sem procurar por pessoas que já tenham clonado o WhatsApp antes.
